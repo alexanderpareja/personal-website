@@ -1,5 +1,6 @@
 /* MAIN */
 html {
+    font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
     color: #F8F8F2;
     background-color: #282A36;
@@ -25,22 +26,28 @@ a:hover {
     text-decoration: line-through;
     text-decoration-color: #ff79c6;
 }
-/* SUB HEADING (USES h3) */
-h3 {
+/* SUB HEADING */
+.styled-heading {
+    font-size: 20px;
+    font-weight: bold;
     background-image: linear-gradient(to right, #8be9fd, #6272a4);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     display: inline-block;
 }
-.subheading {
+
+/*.subheading {
     display: flex;
+    flex-direction: row;
     align-items: center;
+    margin: 0;
+    padding: 0;
 }
 .subheading h3 {
     margin-right: 5px;
     margin-left: 5px;
     padding: 0;
-}
+} */
 /* NAV LINKS */
 nav {
     margin: 0;
