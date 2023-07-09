@@ -6,10 +6,17 @@ html {
     background-color: #282A36;
 }
 h1 {
-    margin-bottom: 1px;
+    margin-bottom: 0;
     font-size: 48px;
     font-weight: bolder;
     background-image: linear-gradient(to right, #ff79c6, #bd93f9);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+}
+h2 {
+    margin-bottom: 0;
+    background-image: linear-gradient(to right, #ff5555, #ffb86c);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     display: inline-block;
@@ -26,8 +33,17 @@ a:hover {
     text-decoration: line-through;
     text-decoration-color: #ff79c6;
 }
-/* SUB HEADING */
-.styled-heading {
+/* About */
+.styled-text-sub {
+    font-size: 20px;
+    font-weight: bold;
+    background-image: linear-gradient(to right, #ff79c6, #bd93f9);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+}
+/* Contact */
+.styled-text-contact {
     font-size: 20px;
     font-weight: bold;
     background-image: linear-gradient(to right, #8be9fd, #6272a4);
