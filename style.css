@@ -35,19 +35,6 @@ a:hover {
     -webkit-text-fill-color: transparent;
     display: inline-block;
 }
-
-/*.subheading {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    margin: 0;
-    padding: 0;
-}
-.subheading h3 {
-    margin-right: 5px;
-    margin-left: 5px;
-    padding: 0;
-} */
 /* NAV LINKS */
 nav {
     margin: 0;
