@@ -1,8 +1,5 @@
 html {
-	background-color: #282a36;
-	opacity: 1;
-	background-image: radial-gradient(#44475a 0.65px, #282a36 0.65px);
-	background-size: 13px 13px;}
-body {
-	padding: 15px;
+	height: 100%;
+	background: #282a36;
+	cursor: crosshair;
 }

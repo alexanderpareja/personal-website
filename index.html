@@ -5,10 +5,29 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" type="text/css" href="style.css">
         <title>Alex Pareja</title>
+        <script src="three.r134.min.js"></script>
+        <script src="vanta.clouds.min.js"></script>
     </head>
-    <body>
-	<div>
-		
-	</div>
+    <body class="body" id="body-id">
+    
+
     </body>
+    <script>
+        VANTA.CLOUDS({
+            el: "html",
+            mouseControls: true,
+            touchControls: true,
+            gyroControls: false,
+            minHeight: 200.00,
+            minWidth: 200.00,
+            backgroundColor: 0x282a36,
+            skyColor: 0x44475a,
+            cloudColor: 0x282a36,
+            cloudShadowColor: 0x6272a4,
+            sunColor: 0x50fa7b,
+            sunGlareColor: 0xff79c6,
+            sunlightColor: 0xbd93f9,
+            speed: 1.30
+      })
+    </script>
 </html>
