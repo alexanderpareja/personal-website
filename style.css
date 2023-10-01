@@ -1,42 +1,38 @@
 html {
+	margin: 0;
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
-	justify-items: center;
-	align-items: center;
+	justify-content: left;
+	justify-items: left;
+	align-items: left;
 	height: 100%;
 	background: #282a36;
 	cursor: crosshair;
 }
 
-.name {
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 10vw;
-	letter-spacing: -2px;
-	word-spacing: -0.8px;
-	color: #f8f8f2;
-	font-weight: 700;
-	text-decoration: none;
-	font-style: italic;
-	font-variant: normal;
-	text-transform: none;
-}
-
-.links {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: space-evenly;
-	background-image: linear-gradient(to right, #8be9fd, #bd93f9);
+pre {
+	margin: 0;
+	width: max-content;
+	font-family: monospace;
+	font-size: 8px;
+	background-image: linear-gradient(to right, #50fa7b, #8be9fd);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+	font-weight: 500;
+	
 }
 
-a {
+ol, a {
+	display: flex;
+	flex-direction: column;
+	cursor: text;
+	margin: 0;
+	width: max-content;
+	font-family: monospace;
 	text-decoration: none;
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 3vw;
-	color: #f8f8f2;
-    display: inline-block;
-	margin-inline: 5px;
+	font-size: 16px;
+	background-image: linear-gradient(to right, #8be9fd, #50fa7b);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+	font-weight: 100;
 }
